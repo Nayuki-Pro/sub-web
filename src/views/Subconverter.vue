@@ -253,7 +253,7 @@ export default {
           "自动判断客户端": "auto",
         },
         customBackend: {
-          "sub.hatsunefly.xyz": "https://sub.hatsunefly.xyz/sub?",
+          "Hatsuneの专门转换": "https://sub.hatsunefly.xyz/sub?",
           "subcon.dlj.tf(subconverter作者提供-稳定)":
             "https://subcon.dlj.tf/sub?",
           "api.dler.io(sub作者&lhie1提供-稳定)": "https://api.dler.io/sub?",
