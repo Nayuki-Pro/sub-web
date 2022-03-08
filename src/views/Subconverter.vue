@@ -269,11 +269,11 @@ export default {
         ],
         remoteConfig: [
           {
-            label: "默认",
+            label: "Hatsuneの专门转换",
             options: [
               {
-                label: "不选，由接口提供方提供",
-                value: ""
+                label: "Hatsuneの专门转换",
+                value: "https://raw.githubusercontent.com/Nayuki-Pro/sub-ini/main/hatsune-full.ini"
               }
             ]
           },
@@ -550,7 +550,7 @@ export default {
   mounted() {
     this.form.clientType = "clash";
     this.form.customBackend = defaultBackend;
-    this.form.remoteConfig = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online.ini";
+    this.form.remoteConfig = "https://raw.githubusercontent.com/Nayuki-Pro/sub-ini/main/hatsune-full.ini";
     this.getBackendVersion();
   },
   methods: {
